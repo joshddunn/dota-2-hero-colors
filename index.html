@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html ng-app='myapp' ng-controller='main'>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Average color</title>
+    <link rel='icon' href='/personal/favicon.png'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+</head>
+
+<body>
+
+<script src='findColors.js'></script>
+
+<button ng-click='begin()'>Run</button>
+
+<canvas id='canvas' height='144px' width='256px'>
+</canvas>
+
+<div id='preview' style='width: 200px; height: 50px; background: black;'>
+</div>
+
+<button ng-click='printResultToConsole()'>Print result to console</button>
+
+</body>
+</html>
