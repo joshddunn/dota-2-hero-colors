@@ -1,11 +1,9 @@
 # dota-2-hero-colors
 
-This is a tool I created to calculate the average color in each of the DOTA 2 hero portraits.
+I created this tool to calculate the average color in each of the DOTA 2 hero portraits.
 
-The .png files (in the full folder) are put onto a canvas I can grab image data.
+The .png files (in the full folder) are put onto a canvas so I can grab the image data.
 
-I then loop through all pixels on that canvas and average the RGB color data.
+I then loop through all pixels on that canvas and find the average the RGB color.
 
-The results can be found in the dota2herocolors.json file.
-
-The results are displayed at https://joshddunn.com/herocolors
+The results are in the dota2herocolors.json file and displayed at https://joshddunn.com/herocolors
