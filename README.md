@@ -8,4 +8,4 @@ I then loop through all pixels on that canvas and average the RGB color data.
 
 The results can be found in the dota2herocolors.json file.
 
-The results are displayed <a href='//joshddunn.com/hercolors>here</a>.
+The results are displayed at joshddunn.com/hercolors
